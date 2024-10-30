@@ -1,0 +1,196 @@
+@CHARSET "UTF-8";
+
+/***** NOTIFICATION MESSAGES *****/
+/*************************************/
+.notibar {
+	height: auto; overflow: hidden; position: relative; margin-bottom: 40px; padding:0px 0 20px 0; -moz-border-radius: 2px;
+	-webkit-border-radius: 2px; border-radius: 2px; line-height: 21px; -moz-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.8);
+	-webkit-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.8); box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.8);
+
+}
+.notibar p { margin: 15px 10px 0 55px; font-size: 16px; color: #ffffff; }
+.notibar a.close {
+	position: absolute; width: 16px; height: 16px; top: 5px; right: 5px; background-image: url(../images/close.png); background-repeat: no-repeat; }
+.notibar a.close:hover { cursor: pointer; }
+
+.msgalert a.close { background-image: url(../images/close.png); }
+/*.msgalert a.close:hover { background-position: -14px -14px; }*/
+
+.msginfo a.close { background-image: url(../images/close.png); }
+/*.msginfo a.close:hover { background-position: -16px -16px; }*/
+
+.msgsuccess a.close { background-image: url(../images/close.png); }
+/*.msgsuccess a.close:hover { background-position: -28px -14px; }*/
+
+.msgerror a.close { background-image: url(../images/close.png); }
+/*.msgerror a.close:hover { background-position: 0 -14px; }*/
+
+.announcement a.close { background-image: url(../images/close.png); }
+/*.announcement a.close:hover { background-position: -56px -14px; }*/
+
+.msgalert { border: 1px solid #eac572; background: #ffe9ad url(../images/notifications.png) no-repeat 0 -52px; }
+.msginfo { border: 1px solid #99c4ea; margin-top:20px; background: #1ba09c url(../images/info.png) no-repeat 10px 10px; }
+.msgsuccess { border: 1px solid #c1d779; background: #d4f5ca url(../images/success.png) no-repeat 0 0; }
+.msgsuccess p { color: #008000; font-size: 14px; }
+.msgerror { border: 1px solid #e18b7c; background: #fad5cf url(../images/error.png) no-repeat 0 0; }
+.msgerror p { color: #ff3131; }
+.announcement {
+	border: 1px solid #fbe187; background: #ffffdf url(../images/advertisment-32.png) no-repeat 10px 10px;
+	color: #95673f; height: auto;
+}
+.announcement h3 { margin: 15px 10px 10px 55px; }
+.announcement p { margin: 15px 10px 15px 55px; }
+.updatedfade p { background: #e3e3e3 no-repeat 0 0; padding:10px; font-size: 13px; color: #000; }
+
+.container1 { border:1px solid #2d5c8a; background-color:#ffdaaa; margin-top:40px; padding:22px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);}
+
+.box1 { width:30%; padding:6px; margin-top:-45px; background:white; border: 1px solid #2d5c8a; }
+.box1 h4 { font-family:arial; font-size:20px; font-weight:bold; color: #2d5c8a; }
+
+.col-md-12 .form-group label { color: #2d5c8a; font-weight: bold !important;}
+/*.col-md-12 table td { color: #2d5c8a; } */
+
+.table thead { background-color: #006DCC; color:white; }
+.table tbody { background-color: #E4F1F9; }
+
+.column-mlm {
+width:50px;
+}
+
+.column-mlm img {
+width:20px;
+height:20px;
+}
+
+.column-mlm img:hover {
+cursor:help;
+}
+
+.binarymlm-admin-settings
+{
+	text-align:right;
+	vertical-align:top;
+}
+.toggle-visibility
+{
+	max-width: 500px;
+	text-align: left;
+	display: none;
+}
+
+.wrap2{
+	padding:12px;
+	margin-top: 15px;
+
+}
+/*MLM settings heading page*/
+
+h3 {
+color:#015588;
+font-family: verdana;
+font-size: 150%;
+}
+
+h2 .nav-tab {
+padding: 4px 10px 6px;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+}
+
+.helpmessage{
+	font-size:12px;
+	width:90%;
+	margin:10px;
+	border: 1px solid #DDD;
+	padding: 20px;
+	background: #FCFCFC;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+
+}
+
+.forms-ui{
+	font-size:12px;
+	width:90%;
+	margin:10px;
+	border: 1px solid #DDD;
+	padding: 20px;
+	background: #FCFCFC;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+
+}
+
+
+.helpmessage p{
+	margin:5 0 5px 0;
+
+}
+
+/********************************************************************
+MLM user list
+********************************************************************/
+.userslist{
+margin:0;
+}
+
+.userslist .heading{
+line-height:40px;
+}
+
+.payout-run{
+	height:30px;
+	width:300px;
+	float:left;
+	text-align:center;
+}
+
+
+table.payout-summary td.right{
+text-align:right!important;
+}
+
+.updated{
+line-height: 1.4;
+}
+
+
+
+.setting-page-wrapper {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px 2px 2px 2px;
+    margin:20px 10px 10px 10px;
+    padding: 20px;
+}
+
+.updated_affiliate{
+	border:1px solid black; background-color: #DBEDE7; color:black; margin:0 auto; width:90%; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19); padding-bottom: 10px;  border-radius: 25px;
+}
+
+.updated_affiliate p{
+	color:black;
+}
+
+.affiliate_url{
+	background-color: #FAFAFA;
+    background-image: -moz-linear-gradient(center top , #F4F4F4, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #D2D2D2;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+    color: #7C7C7C;
+    font-size: 0.785714rem;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 0.428571rem 0.714286rem;
+}
+.table {
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}

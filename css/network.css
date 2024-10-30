@@ -1,0 +1,44 @@
+span.owner
+{
+  //color:#339966;
+  color:#ffffff !important;
+  font-style:italic;
+}
+span.paid
+{
+  color: #669966!important;
+
+  /*background-color:#770000; */
+  font-style:normal;
+}
+span.leg
+{
+  color:red;
+  font-style:italic;
+}
+
+.google-visualization-orgchart-nodesel,.google-visualization-orgchart-node {
+border: 2px solid #B3B3B3 !important;
+background:#051130 !important;
+background-color: #fff7ae;
+color:#ffffff !important;
+background: -webkit-gradient(linear, left top, left bottom, from(#fff7ae), to(#eee79e));
+}
+.google-visualization-orgchart-nodesel a,.google-visualization-orgchart-node a
+{
+color:#ffffff !important;
+}
+#chart_div table
+{
+border-collapse:separate !important;
+}
+.google-visualization-orgchart-lineleft {
+border-left: 1px solid #B3B3B3 !important;
+}
+.google-visualization-orgchart-lineright
+{
+border-right: 1px solid #B3B3B3 !important;
+}
+.google-visualization-orgchart-linebottom {
+border-bottom: 1px solid #B3B3B3 !important;
+}
